@@ -1,15 +1,15 @@
 {
   "name": "netlify-monitor",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "nx": "15.4.4",
+    "nx": "^15.4.4",
     "prettier": "^2.6.2"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ]
 }
