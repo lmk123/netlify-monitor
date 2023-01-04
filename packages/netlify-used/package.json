@@ -1,6 +1,27 @@
 {
   "name": "netlify-used",
   "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build:mjs": "tsc -p tsconfig.build.json -m ESNext -d && js-to-mjs dist",
+    "build:cjs": "tsc -p tsconfig.build.json -m CommonJS",
+    "build": "npm run build:mjs && npm run build:cjs",
+    "dev": "nodemon --watch src -e ts --exec \"npm run build\"",
+    "test": "jest",
+    "test:ci": "jest --ci"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
   "private": true,
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@hcfy/js-to-mjs": "^1.0.0-alpha.1",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4"
+  }
 }
