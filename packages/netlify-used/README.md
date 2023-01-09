@@ -4,4 +4,4 @@ Get Netlify's usage information.
 
 ## Usage
 
-See `example.js`.
+See [apps/cli/src/index.ts](https://github.com/lmk123/netlify-monitor/blob/main/apps/cli/src/index.ts).

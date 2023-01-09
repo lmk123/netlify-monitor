@@ -1,22 +1,3 @@
-interface User {
-  slug: string
-  full_name: string
-  avatar_url: string
-}
-export async function getCurrentUser(token: string): Promise<User> {
-  const res = await fetch(`https://api.netlify.com/api/v1/user`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  })
-
-  if (res.ok) {
-    return res.json()
-  }
-
-  throw new Error('Fetch fails.', { cause: res })
-}
-
 interface Account {
   // Team name
   name: string
