@@ -1,6 +1,6 @@
 {
   "name": "@lmk123/netlify-usage-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "clean": "rm -rf dist",
     "build:mjs": "tsc -p tsconfig.build.json -m ESNext -d && js-to-mjs dist",
