@@ -2,7 +2,7 @@
 
 A cli program to print out the usage of netlify.
 
-1. Installing with npm: `npm i -g @lmk123/netlify-useage-cli`
+1. Installing with npm: `npm i -g @lmk123/netlify-usage-cli`
 2. Create a Netlify token: [https://app.netlify.com/user/applications#personal-access-tokens](https://app.netlify.com/user/applications#personal-access-tokens)
 
 Then:

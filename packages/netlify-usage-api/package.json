@@ -27,5 +27,8 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "netlify"
   ]
 }

@@ -1,4 +1,4 @@
-# netlify-used
+# netlify-usage-api
 
 Get Netlify's usage information.
 

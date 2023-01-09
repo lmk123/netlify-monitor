@@ -1,3 +1,7 @@
 # Netlify Monitor
 
-Netlify Monitor is a browser extension that periodically checks Netlify usage and sends notifications when a threshold is reached.
+Some applications for monitoring the usage of Netlify.
+
+Currently, only the cli program is available：
+
+- [netlify-usage-cli](https://github.com/lmk123/netlify-monitor/tree/main/apps/cli)
