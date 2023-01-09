@@ -1,11 +1,12 @@
 {
   "name": "@lmk123/netlify-usage-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A cli program to print out the usage of netlify.",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsc -p tsconfig.build.json",
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "prepublishOnly": "npm run build"
   },
   "bin": {
     "nuc": "./dist/index.js"
@@ -26,5 +27,8 @@
   "devDependencies": {
     "@types/node": "^18.11.18",
     "typescript": "^4.9.4"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }

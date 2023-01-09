@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import readyPromise from './fetch-shim'
 
 import {
