@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/lmk123/netlify-monitor/tree/main/apps/cli#readme",
   "dependencies": {
-    "@lmk123/netlify-usage-api": "^1.0.0",
-    "node-fetch": "^3.3.0"
+    "@hcfy/node-fetch-polyfill": "^1.1.0",
+    "@lmk123/netlify-usage-api": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",

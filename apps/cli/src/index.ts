@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import readyPromise from './fetch-shim'
+import readyPromise from '@hcfy/node-fetch-polyfill'
 
 import {
   getAccounts,
